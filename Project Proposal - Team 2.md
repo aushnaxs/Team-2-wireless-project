@@ -59,8 +59,8 @@ Thus, the sustainability paradox is one of balance between the two truths: that 
 
 Thus, the role of AI is important to the design of the future wireless network, but the environmental impact of the growth of AI needs to be evaluated at the same level as the technical benefits. Otherwise, the green network may be technically efficient but environmentally unsustainable.
 
+# Literature Review
 
-#Literature Review
 
 Recent research on AI-based wireless communications has indicated that artificial intelligence plays a key role in the development of future 6G communications due to its potential to enhance efficiency. However, most of the existing literature on the use of artificial intelligence in wireless communication has focused on its potential to enhance sustainable wireless communication by reducing power wastage. However, recent research on the use of artificial intelligence has indicated that its computation has raised new environmental concerns.
 
