@@ -16,12 +16,12 @@
 - The integration of artificial intelligence is leading the development of the next generation of wireless networks, but may also present adverse consequences. While AI does solve automation issues and improves network effciency, it would also need signifcant amount of power and resources to maintain stable operations. The development of 6G provides many benefits to AI such as, continuous monitoring, low latency, and semantic communication. However, it is crucial to evaluate whether the enviromental costs linking to AI infrastructure outweighs the benefit. Also, it's important to mention that telecomuncation infrastructure represents a large portion of gloabl energy consumption and potentially leave massive carbon footprint. By going in-depth about green networks and energy demands, it is crucial to show the pros and cons of the environmental impact and network efficiency of AI. This level of research would allow us to raise concerns and provide effective solutions to prevent complications in the future. 
 
 # Candidate References
-Alhussien, N., & Gulliver, T. A. (2024). Toward AI‑enabled green 6G networks: A resource management perspective. IEEE Access, 12, 132972–132995. https://ieeexplore.ieee.org/document/10679787
+- Alhussien, N., & Gulliver, T. A. (2024). Toward AI‑enabled green 6G networks: A resource management perspective. IEEE Access, 12, 132972–132995. https://ieeexplore.ieee.org/document/10679787
 - Ezzeddine, Z., Khalil, A., Zeddini, B., & Ouslimani, H. H. (2024). A Survey on Green Enablers: A Study on the Energy Efficiency of AI-Based 5G Networks. Wireless Communications Sensors, 24(14), 4609. https://doi.org/10.3390/s24144609
 -  Kamran, R., Bhat, M. G., Jha, P., Moothedath, S., Hanawal, M., & Chaporkar, P. (2025). Energy-Aware 6G Network Design: A Survey. arXiv. https://arxiv.org/abs/2509.11289
--  Safitra, Muhammad Fakhrul, et al. "Green networking: challenges, opportunities, and future trends for sustainable development." Proceedings of the 2023 11th international conference on computer and communications management. 2023.
+-  Safitra, Muhammad Fakhrul, et al. "Green networking: challenges, opportunities, and future trends for sustainable development." Proceedings of the 2023 11th international conference on computer and communications management. 2023. https://dl.acm.org/doi/abs/10.1145/3617733.3617760
 - Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. Working paper. ProQuest. https://www.proquest.com/docview/2236521036
-- Yokoyama, André M., et al. "Investigating hardware and software aspects in the energy consumption of machine learning: A green AI‐centric analysis." Concurrency and Computation: Practice and Experience 35.24 (2023): e7825.
+- Yokoyama, André M., et al. "Investigating hardware and software aspects in the energy consumption of machine learning: A green AI‐centric analysis." Concurrency and Computation: Practice and Experience 35.24 (2023): e7825. https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.7825
 
 # Ownership Table 
 | Section | Description | Primary Authors | Supporting Authors |
