@@ -41,9 +41,21 @@
 
 
 Artificial intelligence is one of the most significant technologies shaping the future of wireless communication systems, given its ability to enhance network automation, resource management, prediction, and energy-consumption control. In 6G, where millions of devices are connected and communicating simultaneously, the traditional approach to network management is no longer effective. The use of artificial intelligence in 6G enables the network to make real-time decisions, predict network congestion, and control unnecessary resource consumption during off-peak hours. According to the use of artificial intelligence in 6G can enhance spectral efficiency and reduce operational waste in the network.
+
+
 However, this advantage brings with it an interesting contradiction. Although AI helps networks save energy during operation, the AI networks themselves require considerable computational power for training, deployment, and continuous updating. Advanced machine learning networks require high-end GPUs, cloud servers, and data centres, which require considerable amounts of energy. According to research, the training of advanced deep learning networks can cause considerable carbon emissions, particularly in situations where repeated experiments and hyperparameter tuning are involved. This suggests that the energy savings in wireless networks may be negated by the environmental cost of the AI networks.
+
+
 The role of AI in the field of wireless communication is to contribute to the energy efficiency of the system. This includes predictive scheduling, intelligent sleep modes, and adaptive resource management. AI systems can predict the demand for the network and put the unused components of the network to sleep. This saves energy as the base stations consume the most energy. According to the survey conducted on the energy-aware 6G system, the following techniques, if implemented, would ensure the sustainability of the system.
+
+
 However, there are still some issues associated with the large-scale deployment of AI systems, even though there are many advantages. These issues pertain to the environment, but they are not limited to the energy consumed for the generation of electrical power. This includes the use of rare earth materials, cooling systems, and the expansion of the data center for the production of AI hardware. However, the situation becomes more complex when the AI system needs to be retrained to maintain the level of performance over the changing network conditions. In the context of telecom operators, the situation could be the following: the efficiency of the operations improves, but the energy demand increases.
+
+
 Another significant concern is that 6G networks will likely use ultra-dense network infrastructures, including edge intelligence, distributed sensing, and semantic layers. These technologies require permanent coordination between the resources used. While AI minimizes latency and enhances the quality of service, the more layers that use AI, the more energy is consumed at the basic level. Current studies indicate that the green network of the future will not only use optimization techniques but will also incorporate renewable energy, light-weight AI, and energy-aware hardware.
+
+
 Thus, the sustainability paradox is one of balance between the two truths: that AI is required to manage the future intelligent networks, but that the free growth of AI may compromise the goals of environmental sustainability. A realistic answer is not to eliminate AI from the design of the network but to make the design and use of AI better. Thus, as discussed in the research, the sustainable design of the 6G network will require that energy efficiency is a design requirement rather than an afterthought.
+
+
 Thus, the role of AI is important to the design of the future wireless network, but the environmental impact of the growth of AI needs to be evaluated at the same level as the technical benefits. Otherwise, the green network may be technically efficient but environmentally unsustainable.
