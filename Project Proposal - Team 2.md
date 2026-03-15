@@ -21,7 +21,7 @@
 -  Kamran, R., Bhat, M. G., Jha, P., Moothedath, S., Hanawal, M., & Chaporkar, P. (2025). Energy-Aware 6G Network Design: A Survey. arXiv. https://arxiv.org/abs/2509.11289
 -  Safitra, Muhammad Fakhrul, et al. "Green networking: challenges, opportunities, and future trends for sustainable development." Proceedings of the 2023 11th international conference on computer and communications management. 2023. https://dl.acm.org/doi/abs/10.1145/3617733.3617760
 - Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. Working paper. ProQuest. https://www.proquest.com/docview/2236521036
-- Yokoyama, André M., et al. "Investigating hardware and software aspects in the energy consumption of machine learning: A green AI‐centric analysis." Concurrency and Computation: Practice and Experience 35.24 (2023): e7825. https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.7825
+
 
 # Ownership Table 
 | Section | Description | Primary Authors | Supporting Authors |
