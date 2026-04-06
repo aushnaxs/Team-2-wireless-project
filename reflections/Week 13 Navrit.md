@@ -3,21 +3,21 @@ This week, I contributed by researching and writing the background section of ou
 Commits 
 
 Background Writing 
-c1ec6285b199641e238a7ca0f5350fcb2cbbcef8
-be2f5394e7a5ab9bcd28c0b01552bb9b26f69347
-24b9f316cbd30b05aeb2fe2dce7dd079b03b6e17
-10736dd87e9fc05f3878dc1fa593688508e7fa7f
- a3466401b47eb45628a59652516b35b210ba5cdb
-2bc06a299d34a0db7b5acfdcc6fbf56319c599ad
+SHA c1ec6285b199641e238a7ca0f5350fcb2cbbcef8
+SHA be2f5394e7a5ab9bcd28c0b01552bb9b26f69347
+SHA 24b9f316cbd30b05aeb2fe2dce7dd079b03b6e17
+SHA 10736dd87e9fc05f3878dc1fa593688508e7fa7f
+SHA a3466401b47eb45628a59652516b35b210ba5cdb
+SHA 2bc06a299d34a0db7b5acfdcc6fbf56319c599ad
 
 Fixed Grammar
-b534ed794ae58a7cf66d2ea74fd270c0c66eeb9c
+SHA b534ed794ae58a7cf66d2ea74fd270c0c66eeb9c
 
 Pull Request 
-0d7b8ec1e942f0951fc2bba94575864c85a5ab25
+SHA 0d7b8ec1e942f0951fc2bba94575864c85a5ab25
 
 Meeting Notes
-959ea99769ef37041697638157dd2816b86f4770
+SHA 959ea99769ef37041697638157dd2816b86f4770
 
 I faced several technical challenges. Creating a pull request on GitHub was difficult since I have never done it before. Constructing the background was also challenging because I wanted to avoid repeating ideas or paragraphs that were already mentioned in other parts of the project. Additionally, learning the terminology of wireless networking is difficult, as the papers often use complex and technical languages. 
 
