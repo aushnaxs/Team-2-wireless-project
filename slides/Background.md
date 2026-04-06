@@ -14,5 +14,5 @@ Artificial Intelligence has several factors for energy consumption. The first fa
 
 The second is hardware and infrastructure components, the total energy used in these phases are calculated by processors and data centers overhead.  “The energy consumption of the servers performing a training task is proportional to the number of processors used and the duration of the training run, which includes local memory, network links and more.” The data centre overhead energy requires cooling equipment and voltage transformation, and losses. (Patterson et al, 2022).
 The final formula for energy consumption:
-MWh = (Hourstotrain x NumberofProcessors X AveragePowerper Processor) X PUE
+MWh = (Hourstotrain x NumberofProcessors X AveragePowerper Processor) X PUE.
 
