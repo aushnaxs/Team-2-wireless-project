@@ -12,4 +12,5 @@ Discussion:
 
 - OverLeaf (Up to Date)
 - Made Presentation Slides through NotebookLM
-- Discussed on how our presentation will look like (outline)
+- Discussed how our presentation will look (outline)
+- finalize the meeting before final class on tuesday 
