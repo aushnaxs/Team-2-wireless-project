@@ -4,8 +4,6 @@ Green networking architecture design involves key strategies as follows:
 “It is required to update the architecture and move from distributed RAN to novel architectures that can accommodate higher data rates, lower energy consumption, and satisfy  the service requirements.” (Masoudi, 2022). This is important because traditional distributed RANs are not designed to handle the growing demands of modern networks, such as 5G and upcoming 6G. As user traffic is intensively growing, distributed RANs struggle with higher energy consumption, network congestion and latency which reduces overall performance. So, AI driven network optimization is introduced.
 
 
-
-
 “AI driven network optimization refers to the use of Artificial Intelligence and machine learning algorithms to efficiently improve the performance of communication networks.
 AI systems can analyze real time data and make decisions based on network conditions, instead of following procedural standards.” (AI Optimization, n.d.). This is important in networking for 5G and the upcoming 6G, where the complexity of traffic patterns will be too complex with the standard of networking protocols. This may cause these standard procedures to be ineffective.  
 
