@@ -17,4 +17,4 @@ Another major concern is that future 6G networks will rely on ultra-dense infras
 This is where the sustainability paradox comes in. On one hand, AI is necessary to run future smart networks. On the other hand, if it keeps growing without limits, it could hurt environmental sustainability. The goal isn’t to stop using AI, but to use it more responsibly. That means designing systems where energy efficiency is built in from the start, not something added later.
 
 
-Thus, the role of AI is important to the design of the future wireless network, but the environmental impact of the growth of AI needs to be evaluated at the same level as the technical benefits. Otherwise, the green network may be technically efficient but environmentally unsustainable.
+At the end of the day, AI is going to be a huge part of future wireless networks. The research shows it can make systems faster and more efficient, but it also comes with real environmental costs. Looking across the literature, it’s clear both sides matter. If we only focus on performance and ignore sustainability, we could end up with networks that are advanced, but not truly sustainable in the long run.
