@@ -5,27 +5,15 @@ Authors: Emma Strubell, Ananya Ganesh, Andrew McCallum
 Year: 2022
 URL: https://www.researchgate.net/publication/358784543_The_Carbon_Footprint_of_Machine_Learning_Training_Will_Plateau_Then_Shrink
 
-## 1. Problem
-Machine learning (ML) is growing super fast, and people worry about how much energy it uses. Training big AI models can produce a lot of CO2. The paper looks at whether this energy use will keep rising or if it can be controlled.
+## 1. Summary
 
-## 2. Approach
-The authors studied real-world data from Google and other cloud providers. They compared older models like Transformer and GPT-3 with newer, more efficient ones (Evolved Transformer, Primer, GLaM). They looked at things like:  
+This paper investigates the environmental impact of machine learning training and whether its carbon footprint will continue to grow. The authors analyze real-world data from large-scale systems, comparing older models such as Transformers and GPT-3 with newer, more efficient architectures like GLaM. Their findings show that improvements in model design, hardware efficiency, and the use of low-carbon datacenters can significantly reduce emissions. The study concludes that the overall carbon footprint of machine learning is likely to plateau and decrease over time despite increasing model size.
 
-- Which model is used  
-- Hardware efficiency (GPUs, TPUs)  
-- Datacenter energy efficiency  
-- Location of datacenters and carbon intensity  
+## 2. Relevance to Our Topic
 
-They calculated energy usage and CO2 emissions for training and inference.
+This paper is directly relevant to AI sustainability and energy-efficient system design, as it demonstrates how optimization in model architecture, hardware, and infrastructure can reduce environmental impact. It supports the argument that AI systems can become more sustainable through better engineering and deployment strategies.
 
-## 3. Key Findings
-- Using smarter models, better hardware, and green datacenters can cut CO2 by hundreds of times.  
-- Newer models like GLaM are much more energy-efficient than older ones like GPT-3, even though they’re bigger.  
-- ML energy use is only a small fraction (<15%) of Google’s total energy, and it hasn’t been growing fast.  
-- Neural Architecture Search (NAS) uses energy at first but saves much more later by finding efficient models.  
-- Choosing datacenter locations with low-carbon energy makes a big difference.
+## 3. Critical Comment
+A limitation of this paper is its reliance on data from large industry providers, which may not represent smaller organizations or less efficient systems. Additionally, the conclusions assume continued advancements in hardware efficiency and access to low-carbon energy, which may not be consistent across all regions.
 
-## 4. Relevance to Our Topic
-This paper shows that AI doesn’t have to be bad for the environment if we follow best practices. It’s important for any research on AI sustainability, energy efficiency, or green tech. It also highlights practical strategies like model choice, hardware, and location that we can apply in our work.
-
-## 5. AI Disclosure: Parts of this summary were drafted with the assistance of an AI language model (ChatGPT). 
+## 4. AI Disclosure: Parts of this summary were drafted with the assistance of an AI language model (ChatGPT). 
