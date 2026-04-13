@@ -6,9 +6,7 @@
 ## Discussion:
 
 Finalized project report with all sections completed
-- Confirmed Overleaf document is fully up to date
-- Reviewed and refined presentation slides (NotebookLM)
-- Finalized presentation outline and flow
+- Confirmed Overleaf document is fully up to date 
 - Addressed authorization requirements and references
 - Selected and finalized images for the report
 - Confirmed readiness for submission and final meeting before Tuesday
