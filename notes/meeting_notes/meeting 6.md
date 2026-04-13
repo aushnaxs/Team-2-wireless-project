@@ -4,10 +4,12 @@
 ## Meeting Time: 12:00 AM
 ## Location: WhatsApp (Voice Call)
 ## Discussion:
-Confirmed that the Overleaf document is fully up to date with all recent revisions.
-Finalized the project report, ensuring completeness, accuracy, and proper formatting.
-Reviewed and refined the presentation slides developed using NotebookLM.
-Discussed and agreed upon the final presentation structure and overall flow.
-Addressed authorization requirements, ensuring all necessary permissions and references are properly included.
-Reviewed and finalized the selection and placement of images to enhance the quality and clarity of the final report.
-Confirmed readiness for submission and aligned on the final meeting before the last class on Tuesday.
+
+Finalized project report with all sections completed
+- Confirmed Overleaf document is fully up to date
+- Reviewed and refined presentation slides (NotebookLM)
+- Finalized presentation outline and flow
+- Addressed authorization requirements and references
+- Selected and finalized images for the report
+- Confirmed readiness for submission and final meeting before Tuesday
+- study for 3 hours
