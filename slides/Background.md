@@ -1,3 +1,9 @@
+%%% -------------------------------------------------------
+%%% SECTION: Background
+%%% AUTHOR : Navrit Bhatti (mangoTree77)
+%%% -------------------------------------------------------
+\section{Background}
+
 Energy efficiency is the core of green networking in mobile communications, ensuring then sustainability of next-generation networks. Its focus is on energy-efficient networks and green network architecture design. (Masoudi, 2022).  
 
 Green networking architecture design involves key strategies as follows: 
@@ -14,3 +20,4 @@ The second is hardware and infrastructure components, the total energy used in t
 The final formula for energy consumption:
 MWh = (Hourstotrain x NumberofProcessors X AveragePowerper Processor) X PUE.
 
+%%% END: Background
