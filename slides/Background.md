@@ -15,7 +15,7 @@ However, AI itself introduces additional energy consumption, which come from 2 f
 Energy usage in these phases are heavily influenced by hardware and infrastructure. The total energy consumed is influenced by the number of processors used and the data centers overhead. As well as, data centers require extra energy for cooling systems and power distribution, which increases overall consumption. This is measured by Power Usage Effectiveness (PUE), the measurement illustrates how efficiently a data center uses energy. The formula for the total energy follows:
 
 MWh = (Hourstotrain x NumberofProcessors X AveragePowerper Processor) X PUE 
-
+ 
 This formula shows that improving efficiency is not about reducing computation time but also optimizing hardware usage and data center operations (Patterson et al, 2022).
 
 
