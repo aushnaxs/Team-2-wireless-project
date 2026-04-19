@@ -6,8 +6,7 @@
 
 Energy efficiency is the central goal of green networking in mobile communications, as it supports the sustainability of next-generation networks (Masoudi, 2022). Green networking focuses on reducing energy consumption while still maintaining high performance by improving the network architectural design.  
 
-Green networking architecture design involves key strategies as follows: 
-“It is required to update the architecture and move from distributed RAN to novel architectures that can accommodate higher data rates, lower energy consumption, and satisfy  the service requirements.” (Masoudi, 2022). This is important because traditional distributed RANs are not designed to handle the growing demands of modern networks, such as 5G and upcoming 6G. As user traffic is intensively growing, distributed RANs struggle with higher energy consumption, network congestion and latency which reduces overall performance. So, AI driven network optimization is introduced.
+One key strategy is transitioning from distributed Radio Access Network (RAN) to more advanced architectures design. Distributed RANs were not designed to handle to adapt to modern systems such as 5G and upcoming 6G networks. As data traffic continues to rapidly grow, these systems face a challenge including higher energy consumption, network congestion and increase in latency. To address these challenges, newer architectures are introduced to support higher network while using energy more efficiently (Masoudi, 2022). 
 
 
 “AI driven network optimization refers to the use of Artificial Intelligence and machine learning algorithms to efficiently improve the performance of communication networks.
