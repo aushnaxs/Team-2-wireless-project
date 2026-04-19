@@ -28,34 +28,27 @@ This points to a clear research gap: the lack of evaluation frameworks that can 
 
 ## The Hidden Energy Cost of AI Computation
 
-While AI systems promise to improve communication efficiency, several recent studies indicate that AI computation has a significant, though unseen, cost: a large amount of power consumption. One of the most widely referenced studies on this topic, conducted by Emma Strubell, has shown that large deep learning models require a lot of computation, often involving multiple training cycles on GPUs, thereby consuming a lot of power.
+While AI systems promise to improve communication efficiency, several recent studies highlight a significant but often overlooked cost: high energy consumption. One of the most widely cited studies, conducted by Emma Strubell, demonstrates that large deep learning models require substantial computational resources, often involving multiple training cycles on GPUs, leading to increased power usage. 
 
-The problem becomes even more alarming when we consider wireless communication systems, where AI models need to be frequently updated. This is because wireless communication channels are dynamic, meaning they change frequently due to various factors such as user mobility, interference, and varying user demand. This means that AI models cannot remain static; they need to be frequently updated.
+This issue is particularly pronounced in wireless communication systems, where AI models must be updated frequently due to the dynamic nature of communication channels. Factors such as user mobility, interference, and fluctuating demand require continuous adaptation, preventing models from remaining static.
 
-According to Ezzeddine et al., many studies on energy efficiency in communication systems tend to overlook the power consumption of inference engines, orchestration systems, and centralized AI controllers.
+According to Ezzeddine et al., many studies on energy efficiency in communication systems overlook the power consumption associated with inference engines, orchestration systems, and centralized AI controllers. Their analysis shows that while some AI-based solutions reduce energy consumption at the radio layer, these gains are often offset by increased power demands at other levels, including edge servers and cloud accelerators.
 
-The authors surveyed AI-based communication solutions, showing that some solutions reduce power consumption at the radio layer, thereby increasing power consumption at other levels, such as edge servers and cloud accelerators.
 
 ## Data Centers, AI Hardware, and Carbon Impact
 
-Another factor that is often not discussed is the fact that the sustainability of AI is heavily dependent on the hardware. Today, for example, most AI operations require powerful hardware such as processors, accelerators, cooling systems, and memory servers.
+Another factor that is often overlooked is that the sustainability of AI depends heavily on the hardware it runs on. Modern AI systems rely on high-performance processors, specialized accelerators, memory systems, and cooling technologies, all of which contribute to overall energy consumption.
 
-As wireless networks begin to embrace more AI solutions, it means that telecommunication networks will begin to depend on distributed computing nodes, which can be regarded as data centers.
+As wireless networks continue to adopt AI-driven solutions, they become increasingly dependent on distributed computing nodes that essentially function as data centers. This shift has important environmental implications, as energy use extends beyond wireless transmission to include the operation and maintenance of supporting hardware.
 
-This has implications for the environment because the power consumption of the hardware is not limited to wireless transmission. Instead, it also involves the power consumption of the hardware itself. According to Kamran et al., future 6G networks can depend on intelligent orchestration layers that can continuously learn from data. If not for lightweight AI, there is a possibility of increased power consumption of the total infrastructure.
+According to Kamran et al., future 6G networks are expected to include intelligent orchestration layers capable of continuous learning. Without the use of lightweight and energy-efficient AI models, this could lead to a significant increase in overall infrastructure power consumption.
 
 
 ## Contradictions in Current Research
 
-The first contradiction in current research is that most studies show significant energy savings locally, while few studies show energy cost savings system-wide.
+A key contradiction in current research is that many studies report significant energy savings at the local level, while few evaluate whether these savings translate into system-wide reductions. For example, a 15% decrease in network power consumption achieved through an AI model may still require continuous inference on edge devices, potentially increasing overall energy use. This suggests that improvements in communication efficiency alone do not provide a complete picture of sustainability.
 
-For instance, a 15% reduction in power consumption in a network through an AI model may still necessitate continuous inferences on edge devices, which would increase energy consumption.
-
-This indicates that studies on communication efficiency alone may not provide a complete picture of sustainability.
-
-The second contradiction in current research is with regard to size, where small AI models show clear energy savings, while larger models deployed on thousands of network devices show significant energy demand.
-
-This indicates that sustainability depends on the size of the model, its complexity, and its retraining intervals.
+A second contradiction relates to model scale. While smaller AI models often demonstrate clear energy savings, larger models deployed across thousands of network devices can result in substantial energy demand. This indicates that sustainability is strongly influenced by factors such as model size, computational complexity, and retraining frequency.
 
 ## Future Research Direction
 The direction of future research on green wireless communication systems includes lightweight AI models, sparse neural networks, adaptive inference, and energy-aware model selection.
