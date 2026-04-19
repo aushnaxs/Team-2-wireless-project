@@ -1,0 +1,13 @@
+# Kahlon and Bomin Mao 2022
+
+This is a summary of the research paper by Kahlon and Bomin Mao published in 2022.
+
+## Key Points
+
+- **Point 1:** ...
+- **Point 2:** ...
+- **Point 3:** ...
+
+## Conclusion
+
+This paper discusses...
