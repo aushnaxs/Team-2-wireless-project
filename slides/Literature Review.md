@@ -14,22 +14,17 @@ In contrast, another body of research highlights the significant environmental c
 
 Although advances in hardware have improved the efficiency of individual models, the overall environmental impact of AI continues to increase due to the rapid growth in model size, frequency of retraining, and large-scale deployment. This indicates that improvements at the model level may be offset by expansion at the system level. In addition, factors such as data center efficiency, cooling requirements, and energy sources introduce further variability in environmental impact. Consequently, AI sustainability cannot be evaluated solely at the model level but must account for the broader computational ecosystem.
 
-
 ## The Sustainability Paradox in Current Research
 
-This discussion has shown how the literature reveals a significant paradox in current research: AI is shown to improve wireless efficiency in the network layer while potentially increasing energy demands in the computational layer.
+Taken together, the literature reveals a significant but unresolved paradox: while AI improves efficiency at the network layer, it may simultaneously increase energy demands in the computational systems that underpin it. This issue is especially important in the context of 6G systems, where AI is expected to operate continuously across edge devices, base stations, and cloud environments.
 
-This is particularly significant in future 6G systems, in which wireless networks are expected to support continuous AI operations in edge devices, base stations, and cloud environments. Without careful design in the deployment of large-scale AI systems, the environmental cost of supporting these intelligent wireless networks may increase faster than their efficiency.
-
-Safitra et al. highlight how sustainable networking must consider the complete lifecycle of digital infrastructure in computing systems, cooling systems, and device manufacturing. This discussion has shown how current research points towards a more complete definition of green networking: one that includes AI infrastructure itself.
+As noted by Safitra et al. (2023), sustainable networking must account for the full lifecycle of digital infrastructure, including hardware production, cooling systems, and long-term operational costs. However, many studies focus on isolated system layers, leading to fragmented assessments of sustainability. As a result, current research may overestimate the environmental benefits of AI-driven optimization by overlooking its broader systemic impact. This highlights the need for more holistic evaluation frameworks that integrate both network-level efficiency and the environmental cost of AI systems.
 
 ## Research Gap and Future Direction
 
-Although many studies separately examine AI optimization and AI energy consumption, fewer studies directly compare both dimensions within a unified sustainability framework. Most current research focuses either on network performance gains or computational efficiency, but not on balancing both simultaneously.
+Despite extensive research on both AI-enabled optimization and AI-related energy consumption, relatively few studies examine these factors within a unified framework. Most existing work focuses on either performance improvements or computational costs in isolation, making it difficult to assess the overall environmental impact of AI in wireless systems.
 
-This creates an important research gap: future wireless systems need frameworks that measure whether AI-generated energy savings exceed AI operational costs under real deployment conditions.
-
-Possible future directions include lightweight machine learning models, adaptive inference scheduling, low-power edge AI hardware, and sustainable federated learning architectures. These approaches may help preserve AI benefits while limiting environmental impact.
+This points to a clear research gap: the lack of evaluation frameworks that can determine whether the energy savings from AI actually outweigh the costs of training, deployment, and maintenance in real-world conditions. Possible directions include lightweight models, adaptive inference strategies, and energy-aware system design. However, it is still unclear how effective these approaches are, mainly due to limited large-scale empirical validation.
 
 ## The Hidden Energy Cost of AI Computation
 
