@@ -4,7 +4,7 @@
 %%% -------------------------------------------------------
 \section{Background}
 
-Energy efficiency is the core of green networking in mobile communications, ensuring then sustainability of next-generation networks. Its focus is on energy-efficient networks and green network architecture design. (Masoudi, 2022).  
+Energy efficiency is the central goal of green networking in mobile communications, as it supports the sustainability of next-generation networks (Masoudi, 2022). Green networking focuses on reducing energy consumption while still maintaining high performance by improving the network architectural design.  
 
 Green networking architecture design involves key strategies as follows: 
 “It is required to update the architecture and move from distributed RAN to novel architectures that can accommodate higher data rates, lower energy consumption, and satisfy  the service requirements.” (Masoudi, 2022). This is important because traditional distributed RANs are not designed to handle the growing demands of modern networks, such as 5G and upcoming 6G. As user traffic is intensively growing, distributed RANs struggle with higher energy consumption, network congestion and latency which reduces overall performance. So, AI driven network optimization is introduced.
