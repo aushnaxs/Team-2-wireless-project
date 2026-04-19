@@ -2,7 +2,7 @@ Meeting Title: Preparation for Project Presentation + Outline Review
 
 Date: April 8, 2026
 
-Time: 12:00 PM
+Time: 12pm to 4pm
 
 Location: Study Room
 
