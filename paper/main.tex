@@ -4,10 +4,167 @@
 % Anmol kahlon (100413536)
 % Ramneet Chandra (100360667)
 
+%File: anonymous-submission-latex-2026.tex
+\documentclass[letterpaper]{article} % DO NOT CHANGE THIS
+\usepackage{aaai2026}  % DO NOT CHANGE THIS
+\usepackage{times}  % DO NOT CHANGE THIS
+\usepackage{helvet}  % DO NOT CHANGE THIS
+\usepackage{courier}  % DO NOT CHANGE THIS
+\usepackage[hyphens]{url}  % DO NOT CHANGE THIS
+\usepackage{graphicx} % DO NOT CHANGE THIS
+\urlstyle{rm} % DO NOT CHANGE THIS
+\def\UrlFont{\rm}  % DO NOT CHANGE THIS
+\usepackage{natbib}  % DO NOT CHANGE THIS AND DO NOT ADD ANY OPTIONS TO IT
+\usepackage{caption} % DO NOT CHANGE THIS AND DO NOT ADD ANY OPTIONS TO IT
+\frenchspacing  % DO NOT CHANGE THIS
+\setlength{\pdfpagewidth}{8.5in} % DO NOT CHANGE THIS
+\setlength{\pdfpageheight}{11in} % DO NOT CHANGE THIS
+%
+% These are recommended to typeset algorithms, but not required. See the subsubsection on algorithms. Remove them if you don't have algorithms in your paper.
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+%
+% These are recommended to typeset listings, but not required. See the subsubsection on listing. Remove this block if you don't have listings in your paper.
+\usepackage{newfloat}
+\usepackage{listings}
+\DeclareCaptionStyle{ruled}{labelfont=normalfont,labelsep=colon,strut=off} % DO NOT CHANGE THIS
+\lstset{%
+	basicstyle={\footnotesize\ttfamily},% footnotesize acceptable for monospace
+	numbers=left,numberstyle=\footnotesize,xleftmargin=2em,% show line numbers, remove this entire line if you don't want the numbers.
+	aboveskip=0pt,belowskip=0pt,%
+	showstringspaces=false,tabsize=2,breaklines=true}
+\floatstyle{ruled}
+\newfloat{listing}{tb}{lst}{}
+\floatname{listing}{Listing}
+%
+% Keep the \pdfinfo as shown here. There's no need
+% for you to add the /Title and /Author tags.
+\pdfinfo{
+/TemplateVersion (2026.1)
+}
+
+% DISALLOWED PACKAGES
+% \usepackage{authblk} -- This package is specifically forbidden
+% \usepackage{balance} -- This package is specifically forbidden
+% \usepackage{colour (if used in text)
+% \usepackage{CJK} -- This package is specifically forbidden
+% \usepackage{float} -- This package is specifically forbidden
+% \usepackage{flushend} -- This package is specifically forbidden
+% \usepackage{fontenc} -- This package is specifically forbidden
+% \usepackage{fullpage} -- This package is specifically forbidden
+% \usepackage{geometry} -- This package is specifically forbidden
+% \usepackage{grffile} -- This package is specifically forbidden
+% \usepackage{hyperref} -- This package is specifically forbidden
+% \usepackage{navigator} -- This package is specifically forbidden
+% (or any other package that embeds links, such as navigator or hyperref)
+% \indentfirst} -- This package is specifically forbidden
+% \layout} -- This package is specifically forbidden
+% \multicol} -- This package is specifically forbidden
+% \nameref} -- This package is specifically forbidden
+% \usepackage{savetrees} -- This package is specifically forbidden
+% \usepackage{setspace} -- This package is specifically forbidden
+% \usepackage{stfloats} -- This package is specifically forbidden
+% \usepackage{tabu} -- This package is specifically forbidden
+% \usepackage{titlesec} -- This package is specifically forbidden
+% \usepackage{tocbibind} -- This package is specifically forbidden
+% \usepackage{ulem} -- This package is specifically forbidden
+% \usepackage{wrapfig} -- This package is specifically forbidden
+% DISALLOWED COMMANDS
+% \nocopyright -- Your paper will not be published if you use this command
+% \addtolength -- This command may not be used
+% \balance -- This command may not be used
+% \baselinestretch -- Your paper will not be published if you use this command
+% \clearpage -- No page breaks of any kind may be used for the final version of your paper
+% \columnsep -- This command may not be used
+% \newpage -- No page breaks of any kind may be used for the final version of your paper
+% \pagebreak -- No page breaks of any kind may be used for the final version of your paper
+% \pagestyle -- This command may not be used
+% \tiny -- This is not an acceptable font size.
+% \vspace{- -- No negative value may be used in proximity of a caption, figure, table, section, subsection, subsubsection, or reference
+% \vskip{- -- No negative value may be used to alter spacing above or below a caption, figure, table, section, subsection, subsubsection, or reference
+
+\setcounter{secnumdepth}{0} %May be changed to 1 or 2 if section numbers are desired.
+
+% The file aaai2026.sty is the style file for AAAI Press
+% proceedings, working notes, and technical reports.
+%
+
+% Title
+
+% Your title must be in mixed case, not sentence case.
+% That means all verbs (including short verbs like be, is, using, and go),
+% nouns, adverbs, and adjectives should be capitalized, including both words in hyphenated terms, while
+% articles, conjunctions, and prepositions are lower case unless they
+% directly follow a colon or long dash
+\title{The Sustainability Paradox: AI for\\ Green Networks vs. Energy-Hungry AI{}}
+\author{
+    %Authors
+    % All authors must be in the same font size and format.
+    Contributions by Navrit Bhatti,
+    Aushna Shrestha, 
+    Drishti Kapoor, 
+    Anmol Kahlon, and
+    Ramneet Chandra
+}
+
+
+\affiliations{
+    %Afiliations
+   
+    
+
+    Kwantlen Polytechnic University\\
+    Surrey, British Columbia, Canada
+%
+% See more examples next
+}
+
+%Example, Single Author, ->> remove \iffalse,\fi and place them surrounding AAAI title to use it
+\iffalse
+\title{My Publication Title --- Single Author}
+\author {
+    Author Name
+}
+\affiliations{
+    Affiliation\\
+    Affiliation Line 2\\
+    name@example.com
+}
+\fi
+
+\iffalse
+%Example, Multiple Authors, ->> remove \iffalse,\fi and place them surrounding AAAI title to use it
+\title{My Publication Title --- Multiple Authors}
+\author {
+    % Authors
+    First Author Name\textsuperscript{\rm 1},
+    Second Author Name\textsuperscript{\rm 2},
+    Third Author Name\textsuperscript{\rm 1}
+}
+\affiliations {
+    % Affiliations
+    \textsuperscript{\rm 1}Affiliation 1\\
+    \textsuperscript{\rm 2}Affiliation 2\\
+    firstAuthor@affiliation1.com, secondAuthor@affilation2.com, thirdAuthor@affiliation1.com
+}
+\fi
+
+
+% REMOVE THIS: bibentry
+% This is only needed to show inline citations in the guidelines document. You should not need it and can safely delete it.
+\usepackage{bibentry}
+% END REMOVE bibentry
+
+\begin{document}
+
+\maketitle
+
 %%% -------------------------------------------------------
 %%% SECTION: Abstract
 %%% AUTHOR : Aushna Shrestha (aushnaxs)
 %%% -------------------------------------------------------
+%%% START SECTION: Abstract
 \section{Abstract}
 Artificial intelligence (AI) is playing an increasingly central role in the design and operation of modern wireless networks, particularly in the transition toward 6G. AI-driven techniques enable automation, adaptive resource management, and improved energy efficiency, supporting the development of greener network infrastructures. At the same time, the computational demands of training and operating large AI models introduce significant environmental costs, including high energy consumption and carbon emissions from data centers. This creates a sustainability paradox in which AI both mitigates and contributes to environmental impact. This paper surveys recent research on AI-enabled green networking and energy-aware 5G and 6G architectures, examines the trade-offs between network optimization and environmental cost, and highlights limitations in current sustainability approaches. The paper further discusses emerging directions such as energy-aware AI deployment and tiered model complexity as potential pathways toward achieving environmentally responsible AI-driven wireless networks.
 %%% END SECTION: Abstract
@@ -16,10 +173,11 @@ Artificial intelligence (AI) is playing an increasingly central role in the desi
 %%% SECTION: Introduction
 %%% AUTHOR : Aushna Shrestha (aushnaxs)
 %%% -------------------------------------------------------
+%%% START SECTION: Introduction
 \section{Introduction}
-Artificial intelligence (AI) is increasingly positioned as a key enabler of sustainability in next-generation wireless networks. As 5G matures and 6G development accelerates, AI-driven automation is expected to optimize network performance, reduce latency, and improve energy efficiency through techniques such as adaptive resource allocation, intelligent traffic management, and dynamic sleep modes for network infrastructure (Alhussien \& Gulliver, 2024; Ezzeddine et al., 2024). Within industry and academic discourse, AI is often presented as a solution to the growing energy demands of dense, high-capacity wireless systems.
+Artificial intelligence (AI) is increasingly positioned as a key enabler of sustainability in next-generation wireless networks. As 5G matures and 6G development accelerates, AI-driven automation is expected to optimize network performance, reduce latency, and improve energy efficiency through techniques such as adaptive resource allocation, intelligent traffic management, and dynamic sleep modes for network infrastructure \cite{alhussien_toward_2024, ezzeddine_survey_2024}. Within industry and academic discourse, AI is often presented as a solution to the growing energy demands of dense, high-capacity wireless systems.
 
-However, this optimistic narrative overlooks a critical contradiction. The training, deployment, and continuous operation of large-scale AI models rely heavily on energy-intensive data centers, which consume substantial electricity and water resources and contribute significantly to greenhouse gas emissions (Strubell, Ganesh, \& McCallum, 2019; Kamran et al., 2025). As a result, while AI may reduce energy consumption at the network edge, it can simultaneously shift and even amplify environmental costs elsewhere in the system. This tension gives rise to a sustainability paradox: AI-enabled efficiency gains in wireless networks may be offset by the environmental footprint of the AI itself.
+However, this optimistic narrative overlooks a critical contradiction. The training, deployment, and continuous operation of large-scale AI models rely heavily on energy-intensive data centers, which consume substantial electricity and water resources and contribute significantly to greenhouse gas emissions \cite{strubell_energy_2019, kamran_energy-aware_2025}. As a result, while AI may reduce energy consumption at the network edge, it can simultaneously shift and even amplify environmental costs elsewhere in the system. This tension gives rise to a sustainability paradox: AI-enabled efficiency gains in wireless networks may be offset by the environmental footprint of the AI itself.
 
 Addressing this paradox is essential as AI becomes deeply embedded in future 6G architectures. Rather than treating AI-driven optimization as inherently sustainable, there is a need to critically evaluate when, where, and how AI should be deployed to ensure net environmental benefits. This paper surveys recent literature on AI-enabled green networking and energy-aware 5G and 6G design, analyzes the trade-offs between network-level efficiency and system-wide environmental impact, and identifies research gaps that limit current sustainability claims. Based on this analysis, the paper discusses emerging frameworks—such as energy-aware model selection and distributed intelligence—that aim to balance AI performance with long-term environmental responsibility in future wireless networks.
 %%% END SECTION: Introduction
@@ -29,98 +187,63 @@ Addressing this paradox is essential as AI becomes deeply embedded in future 6G 
 %%% SECTION: Background
 %%% AUTHOR : Navrit  Bhatti (mangoTree77)
 %%% -------------------------------------------------------
+%%% START SECTION: Background
 \section{Background}
-Energy efficiency is the central goal of green networking in mobile communications, as it supports the sustainability of next-generation networks (Masoudi, 2022). Green networking focuses on reducing energy consumption while still maintaining high performance by improving the network architectural design.
+Energy efficiency is the central goal of green networking in mobile communications, as it supports the sustainability of next-generation networks \cite{masoudi_data_nodate}. Green networking focuses on reducing energy consumption while still maintaining high performance by improving the network architectural design.
 
-One key strategy is transitioning from distributed Radio Access Network (RAN) to more advanced architectures design. Distributed RANs were not designed to handle to adapt to modern systems such as 5G and upcoming 6G networks. As data traffic continues to rapidly grow, these systems face a challenge including higher energy consumption, network congestion and increase in latency. To address these challenges, newer architectures are introduced to support higher network while using energy more efficiently (Masoudi, 2022).
+One key strategy is transitioning from distributed Radio Access Network (RAN) to more advanced architectures design. Distributed RANs were not designed to handle to adapt to modern systems such as 5G and upcoming 6G networks. As data traffic continues to rapidly grow, these systems face a challenge including higher energy consumption, network congestion and increase in latency. To address these challenges, newer architectures are introduced to support higher network while using energy more efficiently \cite{masoudi_data_nodate}.
 
-To further improve efficiency, Artificial Intelligence also known as AI is being used for network optimization. AI-driven network optimization uses machine learning algorithms to analyze real-time network and automatically adjust its settings based on current conditions and regulations. Whereas traditional rule-based systems, AI can adapt dynamically, making it more efficient for managing the complex and unpredictable traffic patterns that are within 5G and 6G networks (Liu et al, 2025).
+To further improve efficiency, Artificial Intelligence (AI) is being used for network optimization. AI-driven network optimization uses machine learning algorithms to analyze real-time network and automatically adjust its settings based on current conditions and regulations. Whereas traditional rule-based systems, AI can adapt dynamically, making it more efficient for managing the complex and unpredictable traffic patterns that are within 5G and 6G networks \cite{liu_6g_2025}.
 
-However, AI itself introduces additional energy consumption, which come from 2 factors that are training and inference. Training is an intensive process where the model learns patterns from large datasets through trial and error. Inference occurs after training, when the model uses its training process to make predictions or decisions in real time (Patterson et al, 2022).
+However, AI itself introduces additional energy consumption, which come from 2 factors that are training and inference. Training is an intensive process where the model learns patterns from large datasets through trial and error. Inference occurs after training, when the model uses its training process to make predictions or decisions in real time \cite{patterson_carbon_2022}.
 
-Energy usage in these phases are heavily influenced by hardware and infrastructure. The total energy consumed is influenced by the number of processors used and the data centers overhead. As well as, data centers require extra energy for cooling systems and power distribution, which increases overall consumption. This is measured by Power Usage Effectiveness (PUE), the measurement illustrates how efficiently a data center uses energy. The formula for the total energy follows:
+Energy usage in these phases is heavily influenced by hardware and infrastructure. The total energy consumed is influenced by the number of processors used and the data centers overhead. As well as, data centers require extra energy for cooling systems and power distribution, which increases overall consumption. This is measured by Power Usage Effectiveness (PUE), the measurement illustrates how efficiently a data center uses energy. The formula for the total energy follows:
 
 MWh = (Hourstotrain x NumberofProcessors X AveragePowerper Processor) X PUE
 
-This formula shows that improving efficiency is not about reducing computation time but also optimizing hardware usage and data center operations (Patterson et al, 2022).
-%%% END SECTION: Background
+This formula shows that improving efficiency is not about reducing computation time but also optimizing hardware usage and data center operations \cite{patterson_carbon_2022}.
+%%% END SECTION: Background 
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.4\textwidth]{image1.png}
+    \caption{Evolution of green wireless communication systems, illustrating the transition from traditional design approaches to AI-driven optimization and automated network management.}
+    \label{fig:ai_evolution}
+\end{figure}
 
-%% SECTION: Energy-Aware AI Framework for 6G Networks
-%% AUTHOR: Ramneet Chandra (@ram1798)
-
-% BEGIN: Energy-Aware AI Framework for 6G Networks
-\section{Proposed Energy-Aware AI Framework for 6G Networks}
-The emergence of Artificial Intelligence (AI) has created various energy efficient tools among wireless communication systems. The main techniques used include resource allocation, base control sleep schedules, and traffic prediction models (Data Driven, Energy Efficient) (Dynamic Multi-Sleeping). These approaches allow networks to adapt to conditions while reducing unnecessary energy consumption. Nevertheless, this type of technology does possess critical limitations. Limitations include training and deploying large-scale AI models requiring a large amount of computing power and carbon emissions to maximize performance (Power Hungry) (Energy and Policy). Therefore, creating a sustainability paradox, where AI does provide improvements, but it also increases environmental consequences.
-
-To address this situation, this paper suggests that an energy-awareness AI framework needs to be established for 6G networks. This would include would minimizing efforts of running highly complex AI models continuously and adding more lightweight models to reduce the repetitive workload. A proposed hierarchical system is introduced, in which lightweight models continuously monitor and predict. This allow for computational power to be used selectively and be activated for advanced optimization.
-
-The proposed framework incorporates several key features. Predictive AI models can optimize base station activities by enabling dynamic sleeping controls, reducing idling energy consumption (Dynamic Multi-Sleeping Controls). Resource allocation techniques allow network resources to be allocated efficiently and selectively during high-demand periods (Resource Allocation). Furthermore, edge-based intelligence and federated learning reduce communication overhead by distributing computational power to devices \cite{Kim2024, Fernando2024}. Lastly, advanced technologies such as digital twin systems can provide various optimization strategies and enhancements to simulate network behaviour, but deployment must be carefully handled due to computational costs \cite{Liu2025}.
-
-By reducing the use of high-energy AI models and enabling adaptive decision-making, the framework would minimize the computational overhead while preserving optimization for performance benefits. This correlates with addressing the sustainability paradox by ensuring that the energy savings are properly addressed at the network level to prevent additional cost to the environment.
-
-Future research should be dedicated to developing a standardized metric to ensure that energy-related costs of AI wireless systems are accurately measured. Also, enabling carbon awareness scheduling and monitoring allows for sustainable AI deployment. In addition, further research is needed to explore various techniques and have fundamental of implementations to allow for sustainable deployment of emerging technologies in the future.
-
-%% END OF SECTION: Energy-Aware AI Framework for 6G Networks
-
-%% SECTION: Conclusion
-%% AUTHOR: Ramneet Chandra (@ram1798)
-
-% BEGIN: Conclusion
-\section{Conclusion}
-This research paper examined the sustainability paradox and AI-optimization techniques used to improve energy efficiency while reducing the need for computational power, training, deployment, and updating with large AI models. This is typically defined within 6G environments. Thus, making this paradox not a theoretical concern, but a practical design flaw that current research hasn’t discovered a solution for yet. 
-
-The proposed framework addresses the crisis by enabling lightweight models to handle continuous tasks and requires advanced models to be used selectively for high-demand scenarios: this avoids unnecessary use of computational power and preserves network performance. Future research should focus on evaluating models in 6G environments and make assessments regarding digital twin deployment before implementation within large-scale models. Overall, sustainable 6G design should have requirements in place to ensure constraints across both the network and AI systems are managed at a standard level. 
-
-Literature Review: The Sustainability Paradox in AI-Driven Green Wireless Networks
-
-Artificial intelligence (AI) is becoming a central part of next-generation wireless communication systems, especially with the development of 6G networks. It is widely seen as a tool that can improve network efficiency and reduce energy waste. However, at the same time, there is increasing concern that the energy required to train and run AI systems may cancel out some of these benefits. This creates what is often described as a sustainability paradox, where AI both supports and challenges environmental sustainability in wireless networks.
-
-AI as a Tool for Green and Efficient Networks
-
-A significant portion of the literature focuses on how AI can improve energy efficiency in wireless communication systems. Mao et al. (2022) explain that machine learning techniques can optimize power control, resource allocation, and network operations, helping reduce unnecessary energy consumption. Instead of relying on fixed network configurations, AI allows systems to adapt dynamically to real-time demand, which improves efficiency.
-
-Similarly, Cui et al. (2025) emphasize that AI is expected to become a core component of 6G network architecture rather than just an optional tool. They highlight its ability to support traffic prediction, intelligent resource allocation, and energy-aware decision-making. These capabilities allow networks to operate more efficiently by avoiding overuse of resources when demand is low. Edge-based and decentralized approaches also support this trend. Fernando and Lăzăroiu (2024) show that using AI at the edge in Industrial Internet of Things (IIoT) systems can reduce communication energy costs by processing data locally instead of sending everything to centralized servers. In the same direction, Yousefpour et al. (2023) propose Green Federated Learning, where AI models are trained across distributed devices without centralizing data, reducing communication overhead and improving system efficiency. Overall, these studies suggest a clear trend: AI is being positioned as a key enabler of greener and more efficient wireless networks, especially through smarter resource management and decentralized computing.
-% End: Conclusion
-
-%%% SECTION: literature review % discussion
-%%% AUTHOR: DRISHTI KAPOOR(kapoordrishti05)
-% BEGIN SECTION {DISCUSSION}
-
-AI's role in enhancing energy efficiency in 6G networks is highlighted in all the studies reviewed in the literature. The findings show that AI plays an important role in optimizing spectral efficiency and minimizing energy wastage when demand is low. Despite this, a deeper analysis of the literature indicates a significant contradiction between the two aspects of energy optimization in 6G networks. While AI ensures efficient energy utilization in the network, it also leads to increased energy consumption at the system level.
-To illustrate, in case of research papers concentrating on network optimization, there is an emphasis on the positive impact of using artificial intelligence-based automation in order to decrease the load on base stations and optimize resource usage. On the contrary, when speaking of research devoted to AI infrastructure, the point of interest will be its huge energy footprint in terms of the costs involved in training and maintaining the system based on powerful graphics processing units and massive data centers. This demonstrates the fact that current literature tends to consider the issue of energy efficiency either from the network or computing point of view, ignoring other possible perspectives on the matter.
-
-Moreover, despite the introduction of energy-efficient architectures and power control techniques offered by Kamran et al., their research does not cover lifecycle energy costs related to building, cooling, and re-training AI systems. Also, while some studies provide information about carbon footprint generated by deep learning techniques (Strubell et al.), they fail to make the link to wireless communications and 6G infrastructure deployment.
-One more issue with the existing literature is related to the absence of empirically evaluated cases of AI-based energy efficiency in ultra-dense 6G. Even though the literature offers numerous theories and simulations regarding possible ways of achieving higher levels of efficiency, the problem of validating them under actual dynamic network conditions still remains. Also, while the contribution of supporting infrastructure to overall environmental impact is known, no attempts have been made to evaluate the extent of that contribution relative to 6G scalability.
-
-Thus, it can be concluded that artificial intelligence application within the context of 6G networks is associated with the need for making certain sacrifices – although operational benefits in terms of reduced energy costs are expected, there will also be increases in terms of infrastructure expenditure. In this regard, future studies should be aimed at creating comprehensive evaluation criteria and models, taking into consideration not only network performance but also environmental aspects.
-
-%% END OF SECTION: DISCUSSION 
-
-%%% AUTHOR: ANMOL KAHLON(AnmolK2002)
-% BEGIN SECTION {LITERATURE REVIEW}
-
+%%% -------------------------------------------------------
+%%% SECTION: Literature Review
+%%% AUTHOR: Anmol Kahlon (AnmolK2002) & Drishti Kapoor (kapoordrishti05)
+%%% -------------------------------------------------------
+%%% BEGIN SECTION: Literature Review
 \section{Literature Review}
 
 Artificial intelligence (AI) is playing an increasingly important role in the evolution of wireless communication systems, particularly with the development of 6G networks. As these systems become more complex, AI enhances network performance through faster, more adaptive, and data-driven decision-making. This has led many researchers to view AI as a key tool for improving efficiency and reducing energy consumption. However, alongside these benefits, there is growing concern that the computational demands required to train and operate AI systems may offset these gains. This tension gives rise to what is commonly described as the sustainability paradox: AI simultaneously enhances and challenges environmental sustainability in wireless networks. Consequently, assessing the true impact of AI requires moving beyond isolated efficiency improvements to consider system-level trade-offs and overall energy consumption.\\
 
 \textbf{AI as a Tool for Green and Efficient Networks}\\
 
-A substantial body of literature positions AI as a major driver of energy efficiency in wireless communication systems. For example, Mao et al. (2022) demonstrate that machine learning techniques can optimize power control, resource allocation, and network operations, thereby reducing unnecessary energy consumption. Similarly, Cui et al. (2025) argue that AI will become a foundational component of 6G network architecture, enabling predictive traffic management and energy-aware decision-making. Collectively, these studies suggest that AI-driven adaptability allows networks to respond dynamically to demand, minimizing resource over-provisioning and improving efficiency.
+A substantial body of literature positions AI as a major driver of energy efficiency in wireless communication systems. For example, \cite{mao_ai_2022} demonstrate that machine learning techniques can optimize power control, resource allocation, and network operations, thereby reducing unnecessary energy consumption. Similarly, \cite{cui_role_2025} argues that AI will become a foundational component of 6G network architecture, enabling predictive traffic management and energy-aware decision-making. Collectively, these studies suggest that AI-driven adaptability allows networks to respond dynamically to demand, minimizing resource over-provisioning and improving efficiency.
 
-This perspective is further supported by decentralized approaches. Fernando et al. (2024) show that edge-based AI in Industrial Internet of Things (IIoT) systems can reduce communication energy costs by processing data locally. Likewise, Yousefpour et al. (2023) propose Green Federated Learning, where model training is distributed across devices to reduce communication overhead. While these approaches reduce transmission-related energy consumption, they primarily focus on localized improvements within the network layer. As a result, they often overlook the cumulative computational burden introduced by continuous and distributed AI operations. This suggests that current studies may overstate the sustainability benefits of AI by emphasizing localized efficiency gains without fully accounting for system-wide energy consumption. This also reflects a broader rebound effect, where improvements in efficiency can drive increased usage, ultimately offsetting potential environmental benefits.
+This perspective is further supported by decentralized approaches.\cite{fernando_energy-efficient_2024} show that edge-based AI in Industrial Internet of Things (IIoT) systems can reduce communication energy costs by processing data locally. Likewise, \cite{yousefpour_green_2023} proposed Green Federated Learning, where model training is distributed across devices to reduce communication overhead. While these approaches reduce transmission-related energy consumption, they primarily focus on localized improvements within the network layer. As a result, they often overlook the cumulative computational burden introduced by continuous and distributed AI operations. This suggests that current studies may overstate the sustainability benefits of AI by emphasizing localized efficiency gains without fully accounting for system-wide energy consumption. This also reflects a broader rebound effect, where improvements in efficiency can drive increased usage, ultimately offsetting potential environmental benefits.\\
 
 \textbf{The Environmental Cost of AI Systems}\\
 
-The Environmental Cost of AI Systems
-Another major theme in the literature highlights the substantial energy demands of AI systems themselves. Strubell et al. (2020) show that training large deep learning models, such as BERT and GPT-2, consumes significant amounts of electricity and requires extensive computational resources as well as cooling infrastructure. They also note that repeated experimentation and hyperparameter tuning can greatly increase the total carbon footprint, even when performance improvements are relatively small.
-Strubell et al. (2020) further emphasize that, although advances in hardware and model efficiency have reduced the cost of individual training runs, the rapid growth in the scale and number of AI systems continues to drive an overall increase in energy consumption. In addition, factors such as data center efficiency, hardware configuration, and geographic location play a major role in determining the final environmental impact. This suggests that the cost of AI extends beyond individual models to the broader ecosystem, including infrastructure, repeated training cycles, and large-scale deployment.
+However, another major theme in the literature highlights that AI systems themselves require large amounts of energy.\cite{strubell_energy_2020} shows that training large deep learning models such as BERT and GPT-2 consumes significant electricity and requires cooling infrastructure and computing resources \cite{strubell_energy_2020}. They also point out that repeated experimentation and tuning can greatly increase the total carbon footprint, even for small performance improvements.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.4\textwidth]{image2.png}
+    \caption{Carbon emissions associated with training and tuning deep learning models compared to real-world activities, illustrating the significant environmental impact of large-scale AI computation.}
+    \label{fig:ai_energy_cost}
+\end{figure}
+
+\cite{strubell_energy_2020} further expands on this issue by showing that although improvements in hardware and model efficiency have reduced the cost of individual models, the overall growth in the number and size of AI systems continues to increase total energy consumption. Factors such as data center efficiency, hardware type, and location also play a major role in the final environmental impact. This means that the environmental cost of AI is not only about training a single model, but about the entire ecosystem, including infrastructure, and repeated training.
 
 \textbf{The Sustainability Paradox in Current Research}\\
 
 Taken together, the literature reveals a significant but unresolved paradox: while AI improves efficiency at the network layer, it may simultaneously increase energy demands in the computational systems that underpin it. This issue is especially important in the context of 6G systems, where AI is expected to operate continuously across edge devices, base stations, and cloud environments.
 
-As noted by Safitra et al. (2023), sustainable networking must account for the full lifecycle of digital infrastructure, including hardware production, cooling systems, and long-term operational costs. However, many studies focus on isolated system layers, leading to fragmented assessments of sustainability. As a result, current research may overestimate the environmental benefits of AI-driven optimization by overlooking its broader systemic impact. This highlights the need for more holistic evaluation frameworks that integrate both network-level efficiency and the environmental cost of AI systems.
+As noted by \cite{safitra_green_2023}, sustainable networking must account for the full lifecycle of digital infrastructure, including hardware production, cooling systems, and long-term operational costs. However, many studies focus on isolated system layers, leading to fragmented assessments of sustainability. As a result, current research may overestimate the environmental benefits of AI-driven optimization by overlooking its broader systemic impact. This highlights the need for more holistic evaluation frameworks that integrate both network-level efficiency and the environmental cost of AI systems.\\
 
 \textbf{Research Gap and Future Direction}\\
 
@@ -134,41 +257,85 @@ While AI systems promise to improve communication efficiency, several recent stu
 
 This issue is particularly pronounced in wireless communication systems, where AI models must be updated frequently due to the dynamic nature of communication channels. Factors such as user mobility, interference, and fluctuating demand require continuous adaptation, preventing models from remaining static.
 
-According to Ezzeddine et al., many studies on energy efficiency in communication systems overlook the power consumption associated with inference engines, orchestration systems, and centralized AI controllers. Their analysis shows that while some AI-based solutions reduce energy consumption at the radio layer, these gains are often offset by increased power demands at other levels, including edge servers and cloud accelerators.
+According to \cite{ezzeddine_survey_2024}, many studies on energy efficiency in communication systems overlook the power consumption associated with inference engines, orchestration systems, and centralized AI controllers. Their analysis shows that while some AI-based solutions reduce energy consumption at the radio layer, these gains are often offset by increased power demands at other levels, including edge servers and cloud accelerators.\\
 
-%%% AUTHOR: DRISHTI KAPOOR(kapoordrishti05)
-% MID SECTION {LITERATURE REVIEW}
+%%% AUTHOR: Drishti Kapoor (kapoordrishti05)
+%%% MID SECTION: Literature Review
+\textbf{Data Centers, AI Hardware, and Carbon Impact}\\
 
-Data Centers, AI Hardware, and Carbon Impact
 Another factor that is often not discussed is the fact that the sustainability of AI is heavily dependent on the hardware. Today, for example, most AI operations require powerful hardware such as processors, accelerators, cooling systems, and memory servers.
 
 As wireless networks begin to embrace more AI solutions, it means that telecommunication networks will begin to depend on distributed computing nodes, which can be regarded as data centers.
 
-This has implications for the environment because the power consumption of the hardware is not limited to wireless transmission. Instead, it also involves the power consumption of the hardware itself. According to Kamran et al., future 6G networks can depend on intelligent orchestration layers that can continuously learn from data. If not for lightweight AI, there is a possibility of increased power consumption of the total infrastructure.
+This has implications for the environment because the power consumption of the hardware is not limited to wireless transmission. Instead, it also involves the power consumption of the hardware itself. According to Kamran et al., future 6G networks can depend on intelligent orchestration layers that can continuously learn from data. If not for lightweight AI, there is a possibility of increased power consumption of the total infrastructure \cite{kamran_energy-aware_2025}.\\
 
-Contradictions in Current Research
+\textbf{Contradictions in Current Research}\\
+
 The first contradiction in current research is that most studies show significant energy savings locally, while few studies show energy cost savings system-wide.
 
-For instance, a 15% reduction in power consumption in a network through an AI model may still necessitate continuous inferences on edge devices, which would increase energy consumption.
+For instance, a 15\% reduction in power consumption in a network through an AI model may still necessitate continuous inferences on edge devices, which would increase energy consumption.
 
 This indicates that studies on communication efficiency alone may not provide a complete picture of sustainability.
 
 The second contradiction in current research is with regard to size, where small AI models show clear energy savings, while larger models deployed on thousands of network devices show significant energy demand.
 
-This indicates that sustainability depends on the size of the model, its complexity, and its retraining intervals.
+This indicates that sustainability depends on the size of the model, its complexity, and its retraining intervals.\\
 
-Future Research Direction
-The direction of future research on green wireless communication systems includes lightweight AI models, sparse neural networks, adaptive inference, and energy-aware model selection.
+\textbf{Future Research Direction}\\
 
-The low-power edge accelerators and model activation strategies could enable wireless communication systems to utilize AI only when performance benefits justify power consumption.
+Future research in green wireless communication systems is increasingly focused on reducing the energy overhead of AI without losing its performance benefits. Approaches such as lightweight models, sparse neural networks, adaptive inference, and energy-aware model selection all aim to limit unnecessary computation and make AI use more efficient. 
 
-Federated learning also presents an area for improvement, where communication rounds can be costly if not managed.
+At the same time, advances in low-power edge hardware and selective model activation could allow systems to use AI only when the performance gains are actually worth the added energy cost. Federated learning also offers potential, but its communication requirements remain a challenge, as frequent training rounds can introduce significant energy overhead if not carefully managed. Overall, these directions suggest that making AI more context-aware and selectively deployed will be essential for addressing the sustainability challenges identified in current research.
+%%% END: Literature Review
 
-Summary
-The above literature review confirms that, indeed, AI has a dual impact on green wireless communication systems. While AI provides an efficient solution to address some of the inefficiencies in wireless communication systems, improve spectrum efficiency, and enable autonomous resource management, it also has a significant impact on computational power consumption, thereby limiting some of the benefits of AI. The sustainability paradox, therefore, remains an important area of concern for future wireless communication systems, particularly with 6G's autonomous design.
+%%% -------------------------------------------------------
+%%% SECTION: DISCUSSION
+%%% AUTHOR : Drishti Kapoor (kapoordrishti05)
+%%% -------------------------------------------------------
+%%% BEGIN: Discussion
+\section{Discussion}
+Artificial intelligence is one of the most significant technologies shaping the future of wireless communication systems, given its ability to enhance network automation, resource management, prediction, and energy-consumption control. In 6G, where millions of devices are connected and communicating simultaneously, the traditional approach to network management is no longer effective. The use of artificial intelligence in 6G enables the network to make real-time decisions, predict network congestion, and control unnecessary resource consumption during off-peak hours. According to the use of artificial intelligence in 6G can enhance spectral efficiency and reduce operational waste in the network.
 
-Thus, the sustainability paradox is one of balance between the two truths: that AI is required to manage the future intelligent networks, but that the free growth of AI may compromise the goals of environmental sustainability. A realistic answer is not to eliminate AI from the design of the network but to make the design and use of AI better. Thus, as discussed in the research, the sustainable design of the 6G network will require that energy efficiency is a design requirement rather than an afterthought.
+However, this advantage brings with it an interesting contradiction. Although AI helps networks save energy during operation, the AI networks themselves require considerable computational power for training, deployment, and continuous updating. Advanced machine learning networks require high-end GPUs, cloud servers, and data centers, which require considerable amounts of energy. Kamran et al. (2025) report that energy-aware 6G systems require intelligent resource allocation, adaptive power control, and energy-efficient architecture to improve long-term sustainability \cite{kamran_energy-aware_2025}.
+
+The role of AI in wireless communications is to improve system energy efficiency. This includes predictive scheduling, intelligent sleep modes, and adaptive resource management. AI systems can predict the demand for the network and put the unused components of the network to sleep. This saves energy as the base stations consume the most energy. According to the survey conducted on the energy-aware 6G system, the following techniques, if implemented, would ensure the sustainability of the system.
+
+However, there are still some issues associated with the large-scale deployment of AI systems, despite many advantages. These issues pertain to the environment, but they are not limited to the energy consumed for the generation of electrical power. This includes the use of rare earth materials, cooling systems, and the expansion of the data center for the production of AI hardware. However, the situation becomes more complex when the AI system needs to be retrained to maintain the level of performance over the changing network conditions. In the context of telecommute operators, the situation could be the following: the efficiency of the operations improves, but the energy demand increases.
+
+Another significant concern is that 6G networks will likely rely on ultra-dense infrastructure, including edge intelligence, distributed sensing, and semantic layers. These technologies require permanent coordination between the resources used. Although AI improves operational efficiency, it also introduces high computational cost. Training advanced machine learning models often depends on high-performance processors, cloud computing systems, and repeated optimization cycles. Research by Emma Strubell, Ananya Ganesh, and Andrew McCallum shows that repeated deep learning training can generate substantial carbon emissions, especially when large hardware clusters are used \cite{strubell_energy_2020}.
+
+Thus, the sustainability paradox is one of balance between the two truths: that AI is required to manage the future intelligent networks, but that the free growth of AI may compromise the goals of environmental sustainability. A realistic answer is not to eliminate AI from the design of the network, but to make the design and use of AI better. Thus, as discussed in the research, the sustainable design of the 6G network will require that energy efficiency is a design requirement rather than an afterthought.
 
 Thus, the role of AI is important to the design of the future wireless network, but the environmental impact of the growth of AI needs to be evaluated at the same level as the technical benefits. Otherwise, the green network may be technically efficient but environmentally unsustainable.
+%%% END: Discussion
 
-%% END OF SECTION:LITERATURE REVIEW
+%%% -------------------------------------------------------
+%%% SECTION: PROPOSED IDEA
+%%% AUTHOR : Ramneet Chandra (@ram1798)
+%%% -------------------------------------------------------
+%%% BEGIN: Proposed Idea
+\section{Proposed Idea: Energy-Aware AI Framework}
+Artificial intelligence (AI) has improved energy efficiency among wireless communication systems. The main techniques used include resource allocation, base control sleep schedules, and traffic prediction models \cite{masoudi_data_nodate, pan_dynamic_2024, fotock_energy_2024}. These approaches allow networks to adapt to conditions while reducing unnecessary energy consumption. Nevertheless, this type of technology does possess critical limitations. Limitations include training and deploying large-scale AI models requiring a large amount of computing power and carbon emissions to maximize performance \cite{luccioni_power_2024, strubell_energy_2019}. Therefore, creating a sustainability paradox, where AI does provide improvements, but it also increases environmental consequences.
+
+To address this situation, this paper suggests that an energy-awareness AI framework needs to be established for 6G networks. This would include would minimizing the efforts of running highly complex AI models continuously and adding more lightweight models to reduce the repetitive workload. A proposed hierarchy system is introduced, where lightweight models are constantly monitoring and predicting. This allow for computational power to be used selectively and be activated for advanced optimization.
+
+The proposed framework incorporates several key features. Predictive AI models can optimize base station activities by enabling dynamic sleeping controls, reducing idling energy consumption (Dynamic Multi-Sleeping Controls). Resource allocation techniques allow network resources to be allocated efficiently and selectively during high-demand periods (Resource Allocation). Furthermore, edge-based intelligence and federated learning reduce communication overhead by distributing computational power to devices \cite{fernando_energy-efficient_2024}. Lastly, advanced technologies such as digital twin systems can provide various optimization strategies and enhancements to simulate network behaviour, but deployment must be carefully handled due to computational costs \cite{liu_6g_2025}.
+
+By reducing the use of high-energy AI models and enabling the adaptive decision-making, the framework would minimize the computational overhead while preserving optimization for performance benefits. This correlates with addressing the sustainability paradox by ensuring that the energy savings are properly addressed at the network level to prevent additional cost to the environment.
+%%% END: Proposed Idea
+
+%%% -------------------------------------------------------
+%%% SECTION: CONCLUSION
+%%% AUTHOR : Ramneet Chandra (@ram1798)
+%%% -------------------------------------------------------
+%%% BEGIN: Conclusion
+\section{Conclusion}
+This research paper examined the sustainability paradox and AI-optimization techniques used to improve energy efficiency while reducing the need for computational power, training, deployment, and updating with large AI models. This is typically defined within 6G environments. Thus, making this paradox not a theoretical concern, but a practical design flaw that current research hasn’t discovered a solution for yet. 
+
+The proposed framework addresses the crisis by enabling lightweight models to handle continuous tasks and requires advanced models to be used selectively for high-demand scenarios: this avoids unnecessary use of computational power and preserves network performance. Future research should focus on evaluating models in 6G environments and make assessments regarding digital twin deployment before implementation within large-scale models. Overall, sustainable 6G design should have requirements in place to ensure constraints across both the network and AI systems are managed at a standard level. 
+%%% END: Conclusion
+
+\bibliographystyle{aaai2026}
+\bibliography{references}
+
+\end{document}
