@@ -25,3 +25,7 @@ The paper highlights ongoing challenges and the need for more efficient and scal
 ## 4. Relevance to Our Topic
 
 This paper directly supports the idea of the sustainability paradox. It shows that AI can make networks more efficient and intelligent, but also increases computational demands and energy use.
+
+## 5. AI Disclosure
+
+Drafted with AI assistance for clarity; all interpretations and critical comments are the author’s own.
